@@ -7,7 +7,7 @@
 // ============================================================
 // CONFIGURAÇÃO — ALTERE A URL ABAIXO APÓS PUBLICAR O WEB APP
 // ============================================================
-var WEBAPP_URL = 'https://script.google.com/macros/s/AKfycby4m6rasilI6KwsvyF2CkjFRrqxawExpK2sDfjeMVGfoOQdJF9Fb46hpsOnpfN0dmkk/exec';
+var WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbyjB5Wc6iKplH33CBPuqEGmHhseyfkm2S5PBrbO092_AawJalh43zp947dAVz3ldJxg/exec';
 // Exemplo: 'https://script.google.com/macros/s/AKfy.../exec'
 
 
