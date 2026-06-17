@@ -123,19 +123,63 @@
                 Função <span class="obrigatorio">*</span>
               </label>
               <p class="campo-ajuda">Escolha sua função nesta atividade.</p>
-              <select id="funcao" name="funcao" class="campo-select" required>
-                <option value="">Selecione...</option>
-                <option value="Coordenador de núcleo">Coordenador de núcleo</option>
-                <option value="Coordenador de projeto">Coordenador de projeto</option>
-                <option value="Coordenador de programação">Coordenador de programação</option>
-                <option value="Oficineiro / Instrutor / Facilitador">Oficineiro / Instrutor / Facilitador</option>
-                <option value="Mobilizador">Mobilizador</option>
-                <option value="Assistente administrativo">Assistente administrativo</option>
-                <option value="Comunicação">Comunicação</option>
-                <option value="Produção">Produção</option>
-                <option value="Outro">Outro</option>
-              </select>
-              <span class="campo-erro" id="erro-funcao"></span>
+<select id="funcao" name="funcao" class="campo-select" required>
+  <option value="">Selecione...</option>
+
+  <option value="Gestão / Governança Documental">Gestão / Governança Documental</option>
+  <option value="Ponto focal de evidências">Ponto focal de evidências</option>
+  <option value="Responsável pelo envio de evidências">Responsável pelo envio de evidências</option>
+
+  <option value="Coordenador de núcleo">Coordenador de núcleo</option>
+  <option value="Coordenador de projeto">Coordenador de projeto</option>
+  <option value="Coordenador geral">Coordenador geral</option>
+  <option value="Coordenador pedagógico">Coordenador pedagógico</option>
+  <option value="Coordenador de programação">Coordenador de programação</option>
+  <option value="Coordenador de produção">Coordenador de produção</option>
+  <option value="Coordenador de comunicação">Coordenador de comunicação</option>
+
+  <option value="Oficineiro / Instrutor / Facilitador">Oficineiro / Instrutor / Facilitador</option>
+  <option value="Professor / Educador">Professor / Educador</option>
+  <option value="Palestrante">Palestrante</option>
+  <option value="Consultor / Assessor técnico">Consultor / Assessor técnico</option>
+
+  <option value="Mobilizador">Mobilizador</option>
+  <option value="Articulador territorial">Articulador territorial</option>
+  <option value="Assistente de mobilização">Assistente de mobilização</option>
+
+  <option value="Assistente administrativo">Assistente administrativo</option>
+  <option value="Apoio administrativo">Apoio administrativo</option>
+  <option value="Apoio operacional">Apoio operacional</option>
+  <option value="Logística / Infraestrutura">Logística / Infraestrutura</option>
+  <option value="Responsável por materiais / insumos">Responsável por materiais / insumos</option>
+
+  <option value="Comunicação">Comunicação</option>
+  <option value="Social media">Social media</option>
+  <option value="Assessoria de imprensa">Assessoria de imprensa</option>
+  <option value="Design / Criação gráfica">Design / Criação gráfica</option>
+
+  <option value="Audiovisual / Fotografia / Vídeo">Audiovisual / Fotografia / Vídeo</option>
+  <option value="Registro fotográfico">Registro fotográfico</option>
+  <option value="Registro videográfico">Registro videográfico</option>
+
+  <option value="Tecnologia / Suporte digital">Tecnologia / Suporte digital</option>
+  <option value="Operador de sistema / plataforma">Operador de sistema / plataforma</option>
+
+  <option value="Produção">Produção</option>
+  <option value="Assistente de produção">Assistente de produção</option>
+  <option value="Curadoria">Curadoria</option>
+
+  <option value="Monitoramento / Avaliação">Monitoramento / Avaliação</option>
+  <option value="Pesquisa / Diagnóstico">Pesquisa / Diagnóstico</option>
+
+  <option value="Acessibilidade / Libras / Audiodescrição">Acessibilidade / Libras / Audiodescrição</option>
+
+  <option value="Financeiro / Prestação de contas">Financeiro / Prestação de contas</option>
+  <option value="Jurídico / Contábil">Jurídico / Contábil</option>
+
+  <option value="Outro">Outro</option>
+</select>
+<span class="campo-erro" id="erro-funcao"></span>
             </div>
 
             <div class="campo-grupo">
@@ -270,22 +314,62 @@
                 <label class="campo-label" for="tipo_atividade">
                   Tipo de atividade <span class="obrigatorio">*</span>
                 </label>
-                <p class="campo-ajuda">Escolha o tipo que mais combina com a atividade.</p>
-                <select id="tipo_atividade" name="tipo_atividade" class="campo-select" required>
-                  <option value="">Selecione...</option>
-                  <option value="Aula / Oficina / Curso">Aula / Oficina / Curso</option>
-                  <option value="Mobilização">Mobilização</option>
-                  <option value="Reunião">Reunião</option>
-                  <option value="Atendimento">Atendimento</option>
-                  <option value="Ação territorial">Ação territorial</option>
-                  <option value="Atividade administrativa">Atividade administrativa</option>
-                  <option value="Atividade de coordenação">Atividade de coordenação</option>
-                  <option value="Atividade de comunicação">Atividade de comunicação</option>
-                  <option value="Entrega de material">Entrega de material</option>
-                  <option value="Evento">Evento</option>
-                  <option value="Outra">Outra</option>
-                </select>
-                <span class="campo-erro" id="erro-tipo_atividade"></span>
+                <p class="campo-ajuda">Escolha o tipo que mais combina com a atividade ou evidência registrada.</p>
+<select id="tipo_atividade" name="tipo_atividade" class="campo-select" required>
+  <option value="">Selecione...</option>
+
+  <option value="Aula / Oficina / Curso">Aula / Oficina / Curso</option>
+  <option value="Palestra / Seminário / Encontro formativo">Palestra / Seminário / Encontro formativo</option>
+  <option value="Atividade formativa / pedagógica">Atividade formativa / pedagógica</option>
+  <option value="Atividade esportiva / cultural / artística">Atividade esportiva / cultural / artística</option>
+
+  <option value="Mobilização">Mobilização</option>
+  <option value="Ação territorial">Ação territorial</option>
+  <option value="Articulação comunitária / institucional">Articulação comunitária / institucional</option>
+  <option value="Busca ativa / inscrição / confirmação de participantes">Busca ativa / inscrição / confirmação de participantes</option>
+
+  <option value="Reunião">Reunião</option>
+  <option value="Atendimento">Atendimento</option>
+  <option value="Diagnóstico / escuta / levantamento de dados">Diagnóstico / escuta / levantamento de dados</option>
+  <option value="Consultoria / assessoria técnica">Consultoria / assessoria técnica</option>
+
+  <option value="Atividade administrativa">Atividade administrativa</option>
+  <option value="Atividade de coordenação">Atividade de coordenação</option>
+  <option value="Planejamento / organização da execução">Planejamento / organização da execução</option>
+  <option value="Monitoramento / avaliação / sistematização">Monitoramento / avaliação / sistematização</option>
+
+  <option value="Atividade de comunicação">Atividade de comunicação</option>
+  <option value="Produção de peça gráfica / card / material de divulgação">Produção de peça gráfica / card / material de divulgação</option>
+  <option value="Publicação / divulgação em rede social ou mídia">Publicação / divulgação em rede social ou mídia</option>
+  <option value="Assessoria de imprensa / comunicação institucional">Assessoria de imprensa / comunicação institucional</option>
+
+  <option value="Registro fotográfico / audiovisual">Registro fotográfico / audiovisual</option>
+  <option value="Gravação / filmagem / cobertura audiovisual">Gravação / filmagem / cobertura audiovisual</option>
+  <option value="Edição / finalização de vídeo ou acervo">Edição / finalização de vídeo ou acervo</option>
+
+  <option value="Tecnologia / suporte digital">Tecnologia / suporte digital</option>
+  <option value="Uso / manutenção de sistema ou plataforma">Uso / manutenção de sistema ou plataforma</option>
+  <option value="Captura de tela / log / evidência digital">Captura de tela / log / evidência digital</option>
+
+  <option value="Infraestrutura / locação / equipamento em uso">Infraestrutura / locação / equipamento em uso</option>
+  <option value="Montagem / adequação de espaço">Montagem / adequação de espaço</option>
+  <option value="Apoio operacional / logística">Apoio operacional / logística</option>
+
+  <option value="Entrega de material">Entrega de material</option>
+  <option value="Distribuição de insumos / alimentação / kits">Distribuição de insumos / alimentação / kits</option>
+  <option value="Uso de material pedagógico / consumo / apoio">Uso de material pedagógico / consumo / apoio</option>
+
+  <option value="Evento">Evento</option>
+  <option value="Produção de evento / ação cultural">Produção de evento / ação cultural</option>
+  <option value="Exibição / apresentação / mostra">Exibição / apresentação / mostra</option>
+
+  <option value="Acessibilidade / Libras / audiodescrição / legendagem">Acessibilidade / Libras / audiodescrição / legendagem</option>
+  <option value="Transporte / deslocamento / apoio ao beneficiário">Transporte / deslocamento / apoio ao beneficiário</option>
+
+  <option value="Prestação de contas / documentação / governança">Prestação de contas / documentação / governança</option>
+  <option value="Outra">Outra</option>
+</select>
+<span class="campo-erro" id="erro-tipo_atividade"></span>
               </div>
 
               <div class="campo">
